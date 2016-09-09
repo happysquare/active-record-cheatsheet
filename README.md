@@ -1,5 +1,5 @@
 Rails cheat sheets
 ==================
 
-[Active Record(/ActiveRecord.md)
+[Active Record](/ActiveRecord.md)
 
