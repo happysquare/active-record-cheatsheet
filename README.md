@@ -30,4 +30,6 @@ When executing a where clause based on the association, user inner join
 ```User.joins(:profile).where(profiles: {pcode: 2000})```
 
 Returns all users who are in the '2000' post code
+Note profiles is plural, as this is a reference to the table, no the
+association.
 
