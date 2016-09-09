@@ -1,5 +1,6 @@
 Rails cheat sheets
 ==================
 
-[Active Record](/ActiveRecord.md)
+[Active Record](/active_record/README.md)
+[Time Zones](/time_zones/README.md)
 
