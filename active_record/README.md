@@ -47,9 +47,9 @@ User.joins(:profile).where(profiles: {pcode: 2000})
 
 | id | name | email | *id* | *user_id* | *avatar* | *mobile* | *suburb* | *state* | *country* |
 |----|------|-------|------|-----------|----------|----------|----------|---------|-----------|
-| 1 | Fred | fred@somedomain.com | **1** | **1** | **http://...** | **0141 111 111** | **Brunswick** | **Lower Saxony** | **Germany** |
-| **2** | **Mary** | **mary@somedomain.com** | **2** | **2** | **http://...** | **0142 222 222** | **Sydney** | **NSW** | **Australia** |
-| 3 | Jamie | jamie@somedomain.com | **3** | **3** | **http://...** | **0143 333 333** | **Campo Belo** | **Sao Paulo** | **Brazil** |
+| 1 | Fred | fred@somedomain.com | *1* | *1* | *http://...* | *0141 111 111* | *Brunswick* | *Lower Saxony* | *Germany* |
+| **2** | **Mary** | **mary@somedomain.com** | *2* | *2* | *http://...* | *0142 222 222* | *Sydney* | *NSW* | *Australia* |
+| 3 | Jamie | jamie@somedomain.com | *3* | *3* | *http://...* | *0143 333 333* | *Campo Belo* | *Sao Paulo* | *Brazil* |
 
 
 Returns all users who are in the '2000' post code
