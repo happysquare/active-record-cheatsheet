@@ -46,7 +46,7 @@ User.joins(:profile).where(profiles: {pcode: 2000})
 ```
 
 | id | name | email | *id* | *user_id* | *avatar* | *mobile* | *suburb* | *state* | *country* |
-|----|------|-------|----|---------|--------|--------|--------|-------|---------|
+|----|------|-------|------|-----------|----------|----------|----------|---------|-----------|
 
 | 1 | Fred | fred@somedomain.com | **1** | **1** | **http://...** | **0141 111 111** | **Brunswick** | **Lower Saxony** | **Germany** |
 
